@@ -1,7 +1,7 @@
 .PHONY: build-image push-image
 
 SERVER  =
-REPO    ?=hwchiu/hiskio-gitops
+REPO    ?=huckchen0422/hiskio-gitops
 COMMIT  =${shell git rev-parse --short HEAD}
 LOG     ="${shell git log -1 --pretty=%B}"
 VERSION ?=${COMMIT}
