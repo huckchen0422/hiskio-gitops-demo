@@ -12,7 +12,7 @@ Latest Commit Log is ${PREFIX}_${COMMITLOG}
 IP address list are ${PREFIX}_${IPS}
 Datetime is $(date)
 
-Live-Demo for gitops
+Live-Demo for GitOpsv0.0.1
 EOF
 
 #Generate a new index.html under /var/www/html
