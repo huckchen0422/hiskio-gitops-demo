@@ -51,7 +51,7 @@ jobs:
           git clone git@github.com:huckchen0422/hiskio-gitops-demo-manifest.git
           make update
           cd hiskio-gitops-demo-manifest
-          git config --global user.email "do-not-reply@hwchiu.com"
+          git config --global user.email "do-not-reply@huckchen0422.com"
           git config --global user.name "GitHub Action"
           git add -A
           git commit -m "Update Image Tag" || true
